@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+## [0.16.1] - 2026-05-07
+
+Patch release for safer large-repo indexing and agent onboarding.
+
+### Added
+- The README now links to the canonical M31 Labs `using-canopy` agent skill.
+
 ### Changed
 - Upgraded `gotreesitter` to `v0.15.1`, carrying the arena, retry, query predicate, and GLR cache fixes from the current v0.15 patch line.
 
