@@ -2,6 +2,10 @@
 
 Structural code analysis toolkit powered by [gotreesitter](https://github.com/odvcencio/gotreesitter). AST-based indexing, search, call graph analysis, security intelligence, architecture governance, and AI agent integration across 206+ languages.
 
+## Agent Skill
+
+Agents helping someone use Canopy should read the canonical M31 Labs skill: [using-canopy](https://github.com/odvcencio/m31labs-skills/blob/main/skills/using-canopy/SKILL.md).
+
 ## Install
 
 ```bash
