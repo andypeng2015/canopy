@@ -33,7 +33,7 @@ canopy mcp --root .
 
 ## Current Release
 
-`v0.16.1` upgrades gotreesitter to the `v0.15.1` patch line and tightens self-indexing for large repositories. Index walks prune ignored directories before descent with `ParsePolicy.ShouldSkipDir`, direct full-file parses use gotreesitter's concurrency-safe `ParserPool`, and unsupported/tagless grammars are skipped before parsing. `CANOPY_INDEX_GC_EVERY` is available for constrained containers. Call graph roots can also be narrowed with `--file` or `path/to/file.go:Name` when multiple definitions share a name.
+`v0.16.2` upgrades gotreesitter to `v0.19.1`, carrying the latest pure-Go parser, query, compatibility, and grammar fixes into Canopy indexing. The current release line keeps the large-repo safeguards from `v0.16.1`: index walks prune ignored directories before descent with `ParsePolicy.ShouldSkipDir`, direct full-file parses use gotreesitter's concurrency-safe `ParserPool`, and unsupported/tagless grammars are skipped before parsing. `CANOPY_INDEX_GC_EVERY` is available for constrained containers. Call graph roots can also be narrowed with `--file` or `path/to/file.go:Name` when multiple definitions share a name.
 
 ## Commands
 

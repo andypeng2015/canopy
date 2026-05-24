@@ -9,7 +9,7 @@ import (
 	"github.com/odvcencio/canopy/pkg/socket"
 )
 
-var version = "0.1.0"
+var version = "0.16.2"
 
 func main() {
 	if len(os.Args) > 1 && os.Args[1] == "--version" {

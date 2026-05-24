@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+## [0.16.2] - 2026-05-24
+
+Patch release updating Canopy to the latest gotreesitter runtime.
+
+### Changed
+- Upgraded `gotreesitter` to `v0.19.1`, bringing the latest pure-Go parser, query, compatibility, and grammar fixes into Canopy indexing and structural analysis.
+
 ## [0.16.1] - 2026-05-07
 
 Patch release for safer large-repo indexing and agent onboarding.
