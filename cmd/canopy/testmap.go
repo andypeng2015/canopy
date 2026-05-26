@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/testmap"
+	"m31labs.dev/canopy/pkg/testmap"
 )
 
 func newTestmapCmd() *cobra.Command {

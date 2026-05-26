@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/structdiff"
+	"m31labs.dev/canopy/pkg/structdiff"
 )
 
 func TestNewRootCmd_HasGroups(t *testing.T) {

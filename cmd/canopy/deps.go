@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/deps"
+	"m31labs.dev/canopy/internal/deps"
 )
 
 func newDepsCmd() *cobra.Command {

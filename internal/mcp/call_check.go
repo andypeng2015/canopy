@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/complexity"
 )
 
 type mcpCheckViolation struct {

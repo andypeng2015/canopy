@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/federation"
+	"m31labs.dev/canopy/internal/federation"
 )
 
 func newServicesCmd() *cobra.Command {

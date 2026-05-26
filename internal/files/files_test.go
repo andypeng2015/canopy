@@ -3,7 +3,7 @@ package files
 import (
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func TestBuildFiltersAndSorts(t *testing.T) {

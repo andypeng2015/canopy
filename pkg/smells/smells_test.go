@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/typemetrics"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/typemetrics"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func makeComplexityReport(fns ...complexity.FunctionMetrics) *complexity.Report {

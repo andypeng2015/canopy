@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/index"
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func TestIndexCheckpointWriterSavesStreamSnapshot(t *testing.T) {

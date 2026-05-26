@@ -8,12 +8,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/boundaries"
-	"github.com/odvcencio/canopy/pkg/capa"
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/impact"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/boundaries"
+	"m31labs.dev/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/impact"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 type reviewComplexityDelta struct {

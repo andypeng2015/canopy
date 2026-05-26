@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 const maxScanLines = 40

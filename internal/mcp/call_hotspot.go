@@ -1,7 +1,7 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/pkg/hotspot"
+	"m31labs.dev/canopy/pkg/hotspot"
 )
 
 func (s *Service) callHotspot(args map[string]any) (any, error) {

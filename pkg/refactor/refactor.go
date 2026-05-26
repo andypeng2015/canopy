@@ -14,8 +14,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/query"
 )
 
 type Options struct {

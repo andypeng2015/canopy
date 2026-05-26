@@ -12,10 +12,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/risk"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/risk"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // trendRecord is a single snapshot appended to .canopy/trends.jsonl.

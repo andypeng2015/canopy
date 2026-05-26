@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 	"github.com/spf13/cobra"
 )
 

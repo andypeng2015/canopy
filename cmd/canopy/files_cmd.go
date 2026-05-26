@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/files"
+	"m31labs.dev/canopy/internal/files"
 )
 
 func newFilesCmd() *cobra.Command {

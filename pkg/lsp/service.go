@@ -11,15 +11,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/feeds"
-	feedcompiler "github.com/odvcencio/canopy/pkg/feeds/compiler"
-	feedparser "github.com/odvcencio/canopy/pkg/feeds/parser"
-	feedvcs "github.com/odvcencio/canopy/pkg/feeds/vcs"
-	"github.com/odvcencio/canopy/pkg/index"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/proxy"
-	"github.com/odvcencio/canopy/pkg/scope"
-	"github.com/odvcencio/canopy/pkg/socket"
+	"m31labs.dev/canopy/pkg/feeds"
+	feedcompiler "m31labs.dev/canopy/pkg/feeds/compiler"
+	feedparser "m31labs.dev/canopy/pkg/feeds/parser"
+	feedvcs "m31labs.dev/canopy/pkg/feeds/vcs"
+	"m31labs.dev/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/proxy"
+	"m31labs.dev/canopy/pkg/scope"
+	"m31labs.dev/canopy/pkg/socket"
 )
 
 // Service holds workspace state and handles LSP requests.

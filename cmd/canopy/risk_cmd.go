@@ -5,11 +5,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/risk"
-	"github.com/odvcencio/canopy/pkg/testmap"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/risk"
+	"m31labs.dev/canopy/pkg/testmap"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func newRiskCmd() *cobra.Command {

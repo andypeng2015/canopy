@@ -15,11 +15,11 @@ import (
 	"github.com/odvcencio/gotreesitter"
 	"github.com/odvcencio/gotreesitter/grammars"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 var maxLinesRulePattern = regexp.MustCompile(`(?i)^\s*no\s+([a-z_]+)s?\s+longer\s+than\s+(\d+)\s+lines?\s*$`)

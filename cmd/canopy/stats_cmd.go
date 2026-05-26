@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/stats"
+	"m31labs.dev/canopy/internal/stats"
 )
 
 func newStatsCmd() *cobra.Command {

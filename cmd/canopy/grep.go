@@ -14,7 +14,7 @@ import (
 
 	tsgrep "github.com/odvcencio/gotreesitter/grep"
 	"github.com/odvcencio/gotreesitter/grammars"
-	"github.com/odvcencio/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/query"
 )
 
 // grepMode indicates which engine to dispatch to.

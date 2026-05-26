@@ -3,7 +3,7 @@ package query
 import (
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func BenchmarkParseSelector_Simple(b *testing.B) {

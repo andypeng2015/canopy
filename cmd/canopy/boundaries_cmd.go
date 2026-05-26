@@ -8,9 +8,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/boundaries"
-	"github.com/odvcencio/canopy/pkg/sarif"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/boundaries"
+	"m31labs.dev/canopy/pkg/sarif"
 )
 
 type boundaryResult struct {

@@ -1,7 +1,7 @@
 // Package lang defines the Parser interface for language-specific source file parsing.
 package lang
 
-import "github.com/odvcencio/canopy/pkg/model"
+import "m31labs.dev/canopy/pkg/model"
 
 // Parser converts source files into structural summaries.
 type Parser interface {

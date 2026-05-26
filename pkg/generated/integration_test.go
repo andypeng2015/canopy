@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/generated"
-	"github.com/odvcencio/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/generated"
+	"m31labs.dev/canopy/pkg/index"
 )
 
 func TestIntegration_IndexBuildDetectsGenerated(t *testing.T) {

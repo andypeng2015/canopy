@@ -3,9 +3,9 @@ package reachability
 import (
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/capa"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // buildTestIndex creates a minimal model.Index with the given files.

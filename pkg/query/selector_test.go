@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func TestParseSelector_WithNameFilter(t *testing.T) {

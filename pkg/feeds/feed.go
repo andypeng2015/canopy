@@ -7,7 +7,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/scope"
+	"m31labs.dev/canopy/pkg/scope"
 )
 
 // FeedProvider enriches a scope graph with additional intelligence.

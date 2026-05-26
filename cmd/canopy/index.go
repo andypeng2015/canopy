@@ -13,10 +13,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/ignore"
-	"github.com/odvcencio/canopy/pkg/index"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/structdiff"
+	"m31labs.dev/canopy/pkg/ignore"
+	"m31labs.dev/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/structdiff"
 )
 
 func loadIndexIgnoreLines(target string) ([]string, error) {

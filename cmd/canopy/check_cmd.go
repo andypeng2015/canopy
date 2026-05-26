@@ -8,14 +8,14 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/lint"
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/risk"
-	"github.com/odvcencio/canopy/pkg/sarif"
-	"github.com/odvcencio/canopy/pkg/smells"
-	"github.com/odvcencio/canopy/pkg/typemetrics"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/lint"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/risk"
+	"m31labs.dev/canopy/pkg/sarif"
+	"m31labs.dev/canopy/pkg/smells"
+	"m31labs.dev/canopy/pkg/typemetrics"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // changedFiles runs git diff --name-only against the given base ref and returns

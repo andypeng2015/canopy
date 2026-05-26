@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/hotspot"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/hotspot"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // FunctionRisk holds the composite risk score and its constituent signals for a single function.

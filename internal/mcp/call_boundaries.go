@@ -3,8 +3,8 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/boundaries"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/boundaries"
 )
 
 func (s *Service) callBoundaries(args map[string]any) (any, error) {

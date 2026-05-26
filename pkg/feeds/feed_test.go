@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/scope"
+	"m31labs.dev/canopy/pkg/scope"
 )
 
 type mockFeed struct {

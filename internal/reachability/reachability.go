@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/capa"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // Path is one hop in the call chain from a package root to a capability.

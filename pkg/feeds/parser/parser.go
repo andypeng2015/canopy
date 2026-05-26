@@ -5,8 +5,8 @@ package parser
 import (
 	"github.com/odvcencio/gotreesitter"
 	"github.com/odvcencio/gotreesitter/grammars"
-	"github.com/odvcencio/canopy/pkg/feeds"
-	"github.com/odvcencio/canopy/pkg/scope"
+	"m31labs.dev/canopy/pkg/feeds"
+	"m31labs.dev/canopy/pkg/scope"
 )
 
 // Feed implements FeedProvider by parsing source files with gotreesitter

@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/odvcencio/canopy/pkg/generated"
-	"github.com/odvcencio/canopy/pkg/ignore"
+	"m31labs.dev/canopy/pkg/generated"
+	"m31labs.dev/canopy/pkg/ignore"
 )
 
 // workspaceIgnoreFiles lists the config files that anchor a workspace root.

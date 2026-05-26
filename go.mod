@@ -1,4 +1,4 @@
-module github.com/odvcencio/canopy
+module m31labs.dev/canopy
 
 go 1.25
 

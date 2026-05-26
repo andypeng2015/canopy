@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/index"
 )
 
 type validateReport struct {

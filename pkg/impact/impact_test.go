@@ -3,7 +3,7 @@ package impact
 import (
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func TestAnalyzeEmpty(t *testing.T) {

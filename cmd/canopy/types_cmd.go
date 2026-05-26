@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/typemetrics"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/typemetrics"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func newTypeMetricsCmd() *cobra.Command {

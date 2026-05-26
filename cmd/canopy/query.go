@@ -12,7 +12,7 @@ import (
 	"github.com/odvcencio/gotreesitter/grammars"
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 type queryOpts struct {

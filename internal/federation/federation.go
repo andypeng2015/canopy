@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 // ExportedIndex is the portable envelope written by "canopy index export".

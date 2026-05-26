@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 var validKind = regexp.MustCompile(`^(?:\*|[a-z_][a-z0-9_]*)$`)

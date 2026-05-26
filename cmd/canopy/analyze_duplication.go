@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/similarity"
+	"m31labs.dev/canopy/pkg/similarity"
 )
 
 func newDuplicationCmd() *cobra.Command {

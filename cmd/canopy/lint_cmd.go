@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/internal/lint"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/sarif"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/internal/lint"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/sarif"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func newLintCmd() *cobra.Command {

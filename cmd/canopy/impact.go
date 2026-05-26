@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/impact"
+	"m31labs.dev/canopy/pkg/impact"
 )
 
 func newImpactCmd() *cobra.Command {

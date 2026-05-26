@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/scope"
+	"m31labs.dev/canopy/pkg/scope"
 )
 
 func TestFeedIsNoOp(t *testing.T) {

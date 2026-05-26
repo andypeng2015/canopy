@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/reachability"
+	"m31labs.dev/canopy/internal/reachability"
 )
 
 func newReachabilityCmd() *cobra.Command {

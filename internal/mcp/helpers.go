@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/index"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) loadOrBuild(cachePath string, target string) (*model.Index, error) {

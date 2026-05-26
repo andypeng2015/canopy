@@ -3,7 +3,7 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/odvcencio/canopy/internal/federation"
+	"m31labs.dev/canopy/internal/federation"
 )
 
 func (s *Service) callServices(args map[string]any) (any, error) {

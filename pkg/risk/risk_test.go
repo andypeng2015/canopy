@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/complexity"
 )
 
 func TestBasicRiskScoring(t *testing.T) {

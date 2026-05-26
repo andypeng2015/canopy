@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/index"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/index"
 )
 
 type driftEdge struct {

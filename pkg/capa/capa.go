@@ -1,6 +1,6 @@
 package capa
 
-import "github.com/odvcencio/canopy/pkg/model"
+import "m31labs.dev/canopy/pkg/model"
 
 // Rule defines a capability detection pattern.
 type Rule struct {

@@ -1,7 +1,7 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/pkg/impact"
+	"m31labs.dev/canopy/pkg/impact"
 )
 
 func (s *Service) callImpact(args map[string]any) (any, error) {

@@ -1,8 +1,8 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/pkg/typemetrics"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/typemetrics"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) callTypeMetrics(args map[string]any) (any, error) {

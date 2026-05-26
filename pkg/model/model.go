@@ -4,7 +4,7 @@ package model
 import (
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/ignore"
+	"m31labs.dev/canopy/pkg/ignore"
 )
 
 // Symbol represents a top-level declaration (function, method, type) in a source file.

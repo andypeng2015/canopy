@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/odvcencio/canopy/internal/lint"
+	"m31labs.dev/canopy/internal/lint"
 )
 
 func (s *Service) callLint(args map[string]any) (any, error) {

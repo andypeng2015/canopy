@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/capa"
 )
 
 func newCapaCmd() *cobra.Command {

@@ -1,8 +1,8 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) callCoupling(args map[string]any) (any, error) {

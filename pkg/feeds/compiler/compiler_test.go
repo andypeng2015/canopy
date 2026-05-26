@@ -3,7 +3,7 @@ package compiler
 import (
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/scope"
+	"m31labs.dev/canopy/pkg/scope"
 )
 
 func TestParseColonFormat(t *testing.T) {

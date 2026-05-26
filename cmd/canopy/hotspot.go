@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/hotspot"
+	"m31labs.dev/canopy/pkg/hotspot"
 )
 
 func newHotspotCmd() *cobra.Command {

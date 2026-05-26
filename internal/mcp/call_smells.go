@@ -3,11 +3,11 @@ package mcp
 import (
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/smells"
-	"github.com/odvcencio/canopy/pkg/typemetrics"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/smells"
+	"m31labs.dev/canopy/pkg/typemetrics"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) callSmells(args map[string]any) (any, error) {

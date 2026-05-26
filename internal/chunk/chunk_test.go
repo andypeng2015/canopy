@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/index"
 )
 
 func TestBuild_ASTBoundaryChunks(t *testing.T) {

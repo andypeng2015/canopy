@@ -16,11 +16,11 @@ import (
 	"github.com/odvcencio/gotreesitter"
 	"github.com/odvcencio/gotreesitter/grammars"
 
-	"github.com/odvcencio/canopy/pkg/generated"
-	"github.com/odvcencio/canopy/pkg/ignore"
-	"github.com/odvcencio/canopy/pkg/lang"
-	"github.com/odvcencio/canopy/pkg/lang/treesitter"
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/generated"
+	"m31labs.dev/canopy/pkg/ignore"
+	"m31labs.dev/canopy/pkg/lang"
+	"m31labs.dev/canopy/pkg/lang/treesitter"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 const schemaVersion = "0.2.0"

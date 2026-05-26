@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/capa"
 )
 
 func (s *Service) callCapa(args map[string]any) (any, error) {

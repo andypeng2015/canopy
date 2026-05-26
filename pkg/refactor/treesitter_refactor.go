@@ -11,8 +11,8 @@ import (
 	"github.com/odvcencio/gotreesitter"
 	"github.com/odvcencio/gotreesitter/grammars"
 
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/query"
 )
 
 // renameTargets holds the context collected during the target-matching phase.

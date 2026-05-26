@@ -11,17 +11,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/boundaries"
-	"github.com/odvcencio/canopy/pkg/capa"
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/coupling"
-	"github.com/odvcencio/canopy/pkg/hotspot"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/risk"
-	"github.com/odvcencio/canopy/pkg/smells"
-	"github.com/odvcencio/canopy/pkg/typemetrics"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/boundaries"
+	"m31labs.dev/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/coupling"
+	"m31labs.dev/canopy/pkg/hotspot"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/risk"
+	"m31labs.dev/canopy/pkg/smells"
+	"m31labs.dev/canopy/pkg/typemetrics"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // Report is the top-level executive summary structure produced by `gts analyze report`.

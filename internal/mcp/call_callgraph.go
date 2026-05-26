@@ -1,7 +1,7 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) callCallgraph(args map[string]any) (any, error) {

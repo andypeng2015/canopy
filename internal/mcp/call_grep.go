@@ -3,7 +3,7 @@ package mcp
 import (
 	"sort"
 
-	"github.com/odvcencio/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/query"
 )
 
 func (s *Service) callGrep(args map[string]any) (any, error) {

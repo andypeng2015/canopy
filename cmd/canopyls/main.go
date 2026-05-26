@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/odvcencio/canopy/pkg/lsp"
-	"github.com/odvcencio/canopy/pkg/socket"
+	"m31labs.dev/canopy/pkg/lsp"
+	"m31labs.dev/canopy/pkg/socket"
 )
 
 var version = "0.16.2"

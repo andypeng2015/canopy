@@ -1,7 +1,7 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/internal/contextpack"
+	"m31labs.dev/canopy/internal/contextpack"
 )
 
 func (s *Service) callContext(args map[string]any) (any, error) {

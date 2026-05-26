@@ -3,7 +3,7 @@ package capa
 import (
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func TestDetectEmpty(t *testing.T) {

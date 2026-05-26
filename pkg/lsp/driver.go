@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/index"
 )
 
 // gopackagesdriver LoadMode flags

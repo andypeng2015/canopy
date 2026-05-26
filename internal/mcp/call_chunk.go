@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/odvcencio/canopy/internal/chunk"
+	"m31labs.dev/canopy/internal/chunk"
 )
 
 func (s *Service) callChunk(args map[string]any) (any, error) {

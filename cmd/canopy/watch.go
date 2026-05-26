@@ -11,10 +11,10 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/odvcencio/canopy/pkg/ignore"
-	"github.com/odvcencio/canopy/pkg/index"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/structdiff"
+	"m31labs.dev/canopy/pkg/ignore"
+	"m31labs.dev/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/structdiff"
 )
 
 func watchWithFSNotify(ctx context.Context, target string, debounce time.Duration, ignorePaths map[string]bool, ignoreMatcher *ignore.Matcher, onChange func(changedPaths []string)) error {

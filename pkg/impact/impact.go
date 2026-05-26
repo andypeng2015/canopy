@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // AffectedSymbol represents a symbol that would be impacted by a change.

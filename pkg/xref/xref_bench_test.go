@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func BenchmarkBuild(b *testing.B) {

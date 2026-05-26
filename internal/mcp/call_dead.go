@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) callDead(args map[string]any) (any, error) {

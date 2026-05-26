@@ -3,8 +3,8 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/odvcencio/canopy/pkg/query"
-	"github.com/odvcencio/canopy/pkg/refactor"
+	"m31labs.dev/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/refactor"
 )
 
 func (s *Service) callRefactor(args map[string]any) (any, error) {

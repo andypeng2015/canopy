@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 type BuildEventKind string

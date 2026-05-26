@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/structdiff"
+	"m31labs.dev/canopy/pkg/structdiff"
 )
 
 func newDiffCmd() *cobra.Command {

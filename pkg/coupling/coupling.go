@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // PackageMetrics holds computed coupling and cohesion metrics for a single package.

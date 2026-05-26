@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/odvcencio/canopy/pkg/ignore"
+	"m31labs.dev/canopy/pkg/ignore"
 )
 
 func TestBuildPath_Directory(t *testing.T) {

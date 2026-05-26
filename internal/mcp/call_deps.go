@@ -1,7 +1,7 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/internal/deps"
+	"m31labs.dev/canopy/internal/deps"
 )
 
 func (s *Service) callDeps(args map[string]any) (any, error) {

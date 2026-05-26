@@ -8,15 +8,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/odvcencio/canopy/internal/bridge"
-	"github.com/odvcencio/canopy/internal/chunk"
-	"github.com/odvcencio/canopy/internal/contextpack"
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/internal/files"
-	"github.com/odvcencio/canopy/pkg/refactor"
-	"github.com/odvcencio/canopy/internal/stats"
-	"github.com/odvcencio/canopy/pkg/structdiff"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/bridge"
+	"m31labs.dev/canopy/internal/chunk"
+	"m31labs.dev/canopy/internal/contextpack"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/internal/files"
+	"m31labs.dev/canopy/pkg/refactor"
+	"m31labs.dev/canopy/internal/stats"
+	"m31labs.dev/canopy/pkg/structdiff"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func TestServiceToolsIncludesCoreRoadmapTools(t *testing.T) {

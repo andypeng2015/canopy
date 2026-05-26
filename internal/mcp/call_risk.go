@@ -3,11 +3,11 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/risk"
-	"github.com/odvcencio/canopy/pkg/testmap"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/risk"
+	"m31labs.dev/canopy/pkg/testmap"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 func (s *Service) callRisk(args map[string]any) (any, error) {

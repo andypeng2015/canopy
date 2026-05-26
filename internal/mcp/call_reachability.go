@@ -1,7 +1,7 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/internal/reachability"
+	"m31labs.dev/canopy/internal/reachability"
 )
 
 func (s *Service) callReachability(args map[string]any) (any, error) {

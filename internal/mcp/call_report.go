@@ -1,12 +1,12 @@
 package mcp
 
 import (
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/boundaries"
-	"github.com/odvcencio/canopy/pkg/capa"
-	"github.com/odvcencio/canopy/pkg/complexity"
-	"github.com/odvcencio/canopy/pkg/hotspot"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/boundaries"
+	"m31labs.dev/canopy/pkg/capa"
+	"m31labs.dev/canopy/pkg/complexity"
+	"m31labs.dev/canopy/pkg/hotspot"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 type mcpReportResult struct {

@@ -3,7 +3,7 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/odvcencio/canopy/internal/bridge"
+	"m31labs.dev/canopy/internal/bridge"
 )
 
 func (s *Service) callBridge(args map[string]any) (any, error) {

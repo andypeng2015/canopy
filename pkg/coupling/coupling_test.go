@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/model"
-	"github.com/odvcencio/canopy/pkg/xref"
+	"m31labs.dev/canopy/pkg/model"
+	"m31labs.dev/canopy/pkg/xref"
 )
 
 // helper to build a minimal xref.Graph from definitions and edges without disk IO.

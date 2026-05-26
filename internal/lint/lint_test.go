@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/odvcencio/canopy/internal/deps"
-	"github.com/odvcencio/canopy/pkg/model"
+	"m31labs.dev/canopy/internal/deps"
+	"m31labs.dev/canopy/pkg/model"
 )
 
 func TestParseRule_MaxLinesFunction(t *testing.T) {

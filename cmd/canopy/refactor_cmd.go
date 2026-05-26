@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/odvcencio/canopy/pkg/query"
-	"github.com/odvcencio/canopy/pkg/refactor"
+	"m31labs.dev/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/refactor"
 )
 
 func newRefactorCmd() *cobra.Command {

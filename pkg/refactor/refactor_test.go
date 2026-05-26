@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/odvcencio/canopy/pkg/index"
-	"github.com/odvcencio/canopy/pkg/query"
+	"m31labs.dev/canopy/pkg/index"
+	"m31labs.dev/canopy/pkg/query"
 )
 
 func TestRenameDeclarations_DryRun(t *testing.T) {
