@@ -11,6 +11,16 @@ All notable changes to this project are documented in this file.
 ### Fixed
 - Large full-index runs no longer rely on host CPU count and optional GC tuning for memory containment.
 
+## [0.18.0] - 2026-06-02
+
+### Changed
+- Upgraded `gotreesitter` to `v0.20.0`, including the current GLR parser core.
+
+## [0.17.0] - 2026-05-25
+
+### Changed
+- Migrated the public Go module and install path to `m31labs.dev/canopy`.
+
 ## [0.16.2] - 2026-05-24
 
 Patch release updating Canopy to the latest gotreesitter runtime.

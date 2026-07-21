@@ -1,5 +1,9 @@
 # canopy
 
+[![Go Reference](https://pkg.go.dev/badge/m31labs.dev/canopy.svg)](https://pkg.go.dev/m31labs.dev/canopy)
+[![CI](https://github.com/odvcencio/canopy/actions/workflows/ci.yml/badge.svg)](https://github.com/odvcencio/canopy/actions/workflows/ci.yml)
+[![Release](https://github.com/odvcencio/canopy/actions/workflows/release.yml/badge.svg)](https://github.com/odvcencio/canopy/actions/workflows/release.yml)
+
 Structural code analysis toolkit powered by [gotreesitter](https://github.com/odvcencio/gotreesitter). AST-based indexing, search, call graph analysis, security intelligence, architecture governance, and AI agent integration across 206+ languages.
 
 ## Agent Skill
@@ -9,7 +13,7 @@ Agents helping someone use Canopy should read the canonical M31 Labs skill: [usi
 ## Install
 
 ```bash
-go install github.com/odvcencio/canopy/cmd/canopy@latest
+go install m31labs.dev/canopy/cmd/canopy@latest
 ```
 
 ## Quickstart
