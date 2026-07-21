@@ -2,9 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
 	"os"
-	"runtime/debug"
 	"strings"
 
 	"github.com/spf13/cobra"
@@ -47,13 +45,6 @@ func newComplexityCmd() *cobra.Command {
 			case "", "cyclomatic", "cognitive", "lines", "nesting", "volume", "mi":
 			default:
 				return fmt.Errorf("unsupported --sort %q (expected cyclomatic|cognitive|lines|nesting|volume|mi)", sortField)
-			}
-
-			// Grammar loading can use 200-400 MB; set a soft memory limit so
-			// the GC reclaims parse arenas aggressively. Only applies when the
-			// user hasn't already configured GOMEMLIMIT.
-			if debug.SetMemoryLimit(-1) == math.MaxInt64 {
-				debug.SetMemoryLimit(1 << 30) // 1 GiB
 			}
 
 			idx, err := loadOrBuild(cmd, cachePath, target, noCache)

@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"reflect"
+	"runtime"
 	"testing"
 	"time"
 
@@ -91,6 +92,44 @@ func TestBuildWalkPolicy_UsesShouldSkipDirForDirectoryPruning(t *testing.T) {
 	}
 	if policy.ShouldSkipDir(filepath.Join(root, "internal")) {
 		t.Fatal("unexpected skip for unrelated directory")
+	}
+}
+
+func TestBuildWalkPolicy_BoundsDefaultConcurrency(t *testing.T) {
+	t.Setenv("GTS_MAX_CONCURRENT", "")
+	policy := (&Builder{}).buildWalkPolicy(filepath.Clean("/repo"), nil)
+	want := runtime.GOMAXPROCS(0)
+	if want > 2 {
+		want = 2
+	}
+	if policy.MaxConcurrent != want {
+		t.Fatalf("MaxConcurrent = %d, want %d", policy.MaxConcurrent, want)
+	}
+	if policy.ChannelBuffer != want+1 {
+		t.Fatalf("ChannelBuffer = %d, want %d", policy.ChannelBuffer, want+1)
+	}
+
+	t.Setenv("GTS_MAX_CONCURRENT", "4")
+	policy = (&Builder{}).buildWalkPolicy(filepath.Clean("/repo"), nil)
+	if policy.MaxConcurrent != 4 {
+		t.Fatalf("explicit MaxConcurrent = %d, want 4", policy.MaxConcurrent)
+	}
+}
+
+func TestIndexGCEvery_DefaultAndOverrides(t *testing.T) {
+	t.Setenv("CANOPY_INDEX_GC_EVERY", "")
+	if got := indexGCEvery(); got != defaultIndexGCEvery {
+		t.Fatalf("default indexGCEvery = %d, want %d", got, defaultIndexGCEvery)
+	}
+
+	t.Setenv("CANOPY_INDEX_GC_EVERY", "0")
+	if got := indexGCEvery(); got != 0 {
+		t.Fatalf("disabled indexGCEvery = %d, want 0", got)
+	}
+
+	t.Setenv("CANOPY_INDEX_GC_EVERY", "invalid")
+	if got := indexGCEvery(); got != defaultIndexGCEvery {
+		t.Fatalf("invalid indexGCEvery = %d, want %d", got, defaultIndexGCEvery)
 	}
 }
 
