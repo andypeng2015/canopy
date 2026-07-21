@@ -31,9 +31,17 @@ canopy analyze report --format markdown
 canopy mcp --root .
 ```
 
-## Current Release
+## Current Main
 
-`v0.16.2` upgrades gotreesitter to `v0.19.1`, carrying the latest pure-Go parser, query, compatibility, and grammar fixes into Canopy indexing. The current release line keeps the large-repo safeguards from `v0.16.1`: index walks prune ignored directories before descent with `ParsePolicy.ShouldSkipDir`, direct full-file parses use gotreesitter's concurrency-safe `ParserPool`, and unsupported/tagless grammars are skipped before parsing. `CANOPY_INDEX_GC_EVERY` is available for constrained containers. Call graph roots can also be narrowed with `--file` or `path/to/file.go:Name` when multiple definitions share a name.
+Current main uses gotreesitter `v0.45.0` and keeps large-repository indexing bounded by default: the CLI uses a 1 GiB Go soft memory limit when the caller has not supplied one, while index builds use at most two concurrent parse workers and a garbage collection cadence of 32 parsed files. Index walks also prune ignored directories before descent and skip unsupported or tagless grammars before parsing.
+
+The defaults remain tunable for unusual workloads:
+
+- `GOMEMLIMIT` overrides the Go soft memory limit.
+- `GTS_MAX_CONCURRENT` overrides the parser worker count.
+- `CANOPY_INDEX_GC_EVERY` overrides the collection cadence; set it to `0` to disable forced collections.
+
+Call graph roots can be narrowed with `--file` or `path/to/file.go:Name` when multiple definitions share a name.
 
 ## Commands
 

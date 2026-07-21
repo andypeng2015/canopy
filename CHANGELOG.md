@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+### Changed
+- Upgraded `gotreesitter` to `v0.45.0`.
+- The CLI now defaults to a 1 GiB Go soft memory limit, while index builds default to two concurrent parser workers and garbage collection every 32 parsed files. Existing `GOMEMLIMIT`, `GTS_MAX_CONCURRENT`, and `CANOPY_INDEX_GC_EVERY` overrides remain authoritative.
+
+### Fixed
+- Large full-index runs no longer rely on host CPU count and optional GC tuning for memory containment.
+
 ## [0.16.2] - 2026-05-24
 
 Patch release updating Canopy to the latest gotreesitter runtime.

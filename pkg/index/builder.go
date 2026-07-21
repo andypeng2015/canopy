@@ -255,9 +255,13 @@ func (b *Builder) buildWalkPolicy(root string, previousByPath map[string]model.F
 	}
 
 	readyByExt := map[string]bool{}
-	// DefaultPolicy uses GOMAXPROCS for concurrency. Lazy grammar loading
-	// (sync.Once per language) prevents the OOM spikes that originally
-	// motivated serial parsing. GTS_MAX_CONCURRENT env var still overrides.
+	// Bound the default worker count because each in-flight parse can retain a
+	// large tree and grammar state. Explicit GTS_MAX_CONCURRENT values still
+	// override this conservative index-build default.
+	if strings.TrimSpace(os.Getenv("GTS_MAX_CONCURRENT")) == "" && policy.MaxConcurrent > 2 {
+		policy.MaxConcurrent = 2
+		policy.ChannelBuffer = policy.MaxConcurrent + 1
+	}
 	policy.ShouldParse = func(absPath string, size int64, modTime time.Time) bool {
 		if shouldSkipIndexPath(root, absPath, false, b.ignore) {
 			return false
@@ -500,15 +504,17 @@ func parseIndexedFile(parser lang.Parser, path string, source []byte, tree *gotr
 	return parser.Parse(path, source)
 }
 
+const defaultIndexGCEvery = 32
+
 func indexGCEvery() int {
 	if raw := strings.TrimSpace(os.Getenv("CANOPY_INDEX_GC_EVERY")); raw != "" {
 		n, err := strconv.Atoi(raw)
 		if err != nil || n < 0 {
-			return 0
+			return defaultIndexGCEvery
 		}
 		return n
 	}
-	return 0
+	return defaultIndexGCEvery
 }
 
 func parserReadyForIndex(parser lang.Parser) bool {
